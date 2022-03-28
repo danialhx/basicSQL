@@ -5,7 +5,7 @@
 key in into Query TAB
 SELECT * FROM pub1.inventory WHERE qty < 5
 
-# Exercise
+# Exercise 3
 Use Select Rows - Limit 1000 option on pub1.inventory
 Key in Query
 
