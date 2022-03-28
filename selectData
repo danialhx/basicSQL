@@ -1,0 +1,5 @@
+-after import inventory.csv, use SELECT,FROM,WHERE
+
+SELECT * FROM pub1.inventory WHERE sold < 100;
+SELECT * FROM pub1.inventory WHERE sold < 200;
+SELECT * FROM pub1.inventory WHERE sold < 500;
