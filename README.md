@@ -1,5 +1,5 @@
 # basicSQL
-# introduction to storing and managing data
+# Introduction to Storing and Managing Data
 # RDMS(Relational Database Management System)
 
 * Lab 147 - Inserting Data from csv into Database
