@@ -1,4 +1,13 @@
--after import inventory.csv, use SELECT,FROM,WHERE
+#Exercise 1
+-import inventory.csv to create new table pub1.inventory
+
+# Exercise 2
+key in into Query TAB
+SELECT * FROM pub1.inventory WHERE qty < 5
+
+# Exercise
+Use Select Rows - Limit 1000 option on pub1.inventory
+Key in Query
 
 SELECT * FROM pub1.inventory WHERE sold < 100;
 SELECT * FROM pub1.inventory WHERE sold < 200;
