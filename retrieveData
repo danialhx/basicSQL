@@ -1,0 +1,11 @@
+# Lab 157 : Retrieving Data from Multiple Tables
+/* 1: Join Tables to Find Top Sellers */
+
+SELECT
+  slspers.repid as rep,.
+  CONCAT(TRIM(lname), ", ", TRIM(fname)) as fullname
+  SUM(sales.qty) as quantity
+  FROM pub1.sales
+  LEFT JOIN pub1.slspers ON (pub1.sales.repid=pub1.slspers.repid)
+  GROUP BY slspers.repid.
+  ORDER BY quantity DESC;
