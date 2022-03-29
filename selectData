@@ -1,11 +1,13 @@
-#Exercise 1
+#Lab 149 : Selecting Data from a Database
+
+# Exercise 1 Import Inventory CSV
 -import inventory.csv to create new table pub1.inventory
 
-# Exercise 2
+# Exercise 2 Select Books for Reordering
 key in into Query TAB
 SELECT * FROM pub1.inventory WHERE qty < 5
 
-# Exercise 3
+# Exercise 3 Select Low-Selling Books
 Use Select Rows - Limit 1000 option on pub1.inventory
 Key in Query
 
