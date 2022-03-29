@@ -1,0 +1,11 @@
+# Lab 155 Organising Data
+/*using pub1.sales db and pub1.titles db */
+#001 Rank Purchases by Quantity Sold and Month
+
+ SELECT 
+ sldate, partnum, qty, custnum, 
+ RANK() OVER (PARTITION by MONTHNAME(sldate) ORDER BY qty DESC) quantity_rank
+ FROM pub1.sales ORDER BY quantity_rank;
+
+#002 Select Top-Selling Books Filtered by Title Length
+SELECT partnum, bktitle, slprice FROM pub1.titles WHERE bktitle LIKE "% % %"
