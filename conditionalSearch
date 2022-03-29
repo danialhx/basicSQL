@@ -1,2 +1,16 @@
-#151 Conditional Searches
+# Lab 151 Conditional Searches
 
+/*01: Select Books by Date and Ignore Specified Words*/
+
+SELECT partnum, bktitle, slprice, pubdate FROM pub1.titles
+WHERE
+(pubdate BETWEEN "2012-01-01" AND "2017-12-30")
+AND
+(lower(bktitle) NOT LIKE "%repair%" AND lower(bktitle) NOT LIKE "%play%" AND lower(bktitle) NOT LIKE "%build%");
+
+
+/*02: Sum Total Sold by Part Number*/
+
+SELECT SUM(qty) FROM pub1.sales WHERE partnum ="40121";
+SELECT SUM(qty) FROM pub1.sales WHERE partnum ="40125";
+SELECT SUM(qty) FROM pub1.sales WHERE partnum ="40325";
