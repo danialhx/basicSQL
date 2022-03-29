@@ -1,6 +1,6 @@
 # basicSQL
-# Introduction to Storing and Managing Data
-# RDMS(Relational Database Management System)
+## Introduction to Storing and Managing Data
+### RDMS(Relational Database Management System)
 
 * Lab 145 - Inserting Data from csv into Database
 * * create new table in pub1.loyalty
