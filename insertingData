@@ -1,0 +1,16 @@
+#Lab 147 : Inserting Data
+#1: Create a Table and Add Data
+pub1
+tables>Create Tables>name>loyalty
+
+type in column name. cust_id, loyalty_number, phone, email, name, points
+type in column Data type INT, INT, VARCHAR, VARCHAR, VARCHAR, INT
+
+#2: Import Data from a CSV File
+
+pub1.loyalty >right click >Table Data Import Wizard
+Browse > /work > loyalty.csv
+ >import to pub1.loyalty
+ >check data from source columns same with destination columns
+
+999 data inserted
